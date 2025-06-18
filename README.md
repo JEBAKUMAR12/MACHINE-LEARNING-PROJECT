@@ -2,8 +2,12 @@
 
 
 📌 About
+
+
 This project demonstrates a conceptual self-driving car steering simulation using machine learning.
 It shows how a neural network can predict steering angles based on camera input (images).
+
+
 👉 The focus is on the pipeline:
 Capturing image sequences
 Preprocessing data
@@ -47,6 +51,8 @@ Input: Sequence of 5 frames (66x200x3)
 ✅ Model uses MSE loss and Adam optimizer.
 
 ⚙ Description
+
+
 🚀 Pipeline:
 1️⃣ Capture or simulate image frames
 2️⃣ Preprocess frames (resize, normalize)
@@ -74,6 +80,9 @@ Optimization:
 Adam optimizer — adjusts weights during training for faster convergence.
 
 💡 Lessons Learned
+
+
+
 ✅ Combining CNNs and LSTMs helps the model learn both what the road looks like and how it changes over time.
 ✅ Preprocessing (resizing, normalizing images) is crucial for accurate predictions.
 ✅ Sequence modeling captures dynamics better than single-frame models in driving tasks.
